@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/botao_normal" android:id="@id/lblQuantidade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/um_x" android:layout_below="@id/lblObs" android:layout_alignParentLeft="true" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ff000000" android:id="@id/lblDescricao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/descricao" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/botao_normal" android:id="@id/lblTotalItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_moeda" android:layout_alignTop="@id/lblQuantidade" android:layout_alignParentRight="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/texto_cinza" android:id="@id/lblObs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/observacoes" android:layout_below="@id/lblDescricao" android:layout_alignParentLeft="true" />
+</RelativeLayout>
